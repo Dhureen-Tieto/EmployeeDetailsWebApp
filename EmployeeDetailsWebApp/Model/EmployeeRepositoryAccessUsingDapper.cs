@@ -11,7 +11,7 @@ namespace EmployeeDetailsWebApp.Model
 {
     public class EmployeeRepositoryAccessUsingDapper:IEmployeeRepositoryInterface
     {
-        private string connectionString = @"Server=. ;Database=Employee ;User Id=sa; Password=Install02;";
+        private string connectionString = ConfigurationManager.ConnectionStrings["EmployeeDatabaseConnectionString"].ConnectionString;
         public int DeleteEmployeeById(string id)
         {
             // throw new NotImplementedException();
@@ -58,13 +58,14 @@ namespace EmployeeDetailsWebApp.Model
         public int InsertEmployeeById(Employee employee)
         {
             // throw new NotImplementedException();
-            using (IDbConnection connection = new SqlConnection())
+            using (IDbConnection connection = new SqlConnection(connectionString))
             {
                 try
                 {
-                    connection.ConnectionString = @"Server=.;Database=Employee;user id=sa;password=Install02;";                    
+                    connection.Open();
                     string query = "INSERT INTO EmployeeDetails2(Id,FirstName,LastName,EmailId, PhoneNumber, Age, ActiveStatus)values(@Id, @FirstName, @LastName, @EmailId, @PhoneNumber, @Age, @ActiveStatus) ";
                     var result = connection.Execute(query, employee);
+                    connection.Close();
                     return result;
                 }
                 catch
@@ -78,13 +79,14 @@ namespace EmployeeDetailsWebApp.Model
         public int UpdateEmployeeById(Employee employee)
         {
             // throw new NotImplementedException();
-            using (IDbConnection connection = new SqlConnection())
+            using (IDbConnection connection = new SqlConnection(connectionString))
             {
                 try
                 {
-                    connection.ConnectionString = @"Server=.;Database=Employee;user id=sa;password=Install02;";                  
+                    connection.Open();                  
                     string query = "UPDATE EmployeeDetails2 SET Id = @Id, FirstName = @FirstName, LastName = @LastName, PhoneNumber = @PhoneNumber, Age = @Age, ActiveStatus = @ActiveStatus WHERE Id = @Id ";
                     var result = connection.Execute(query, employee);
+                    connection.Close();
                     return result;
                 }
                 catch
@@ -95,7 +97,7 @@ namespace EmployeeDetailsWebApp.Model
             }
         }
 
-        List<Employee> IEmployeeRepositoryInterface.GetEmployees()
+        public List<Employee> GetEmployees()
         {
             // throw new NotImplementedException();
             using (IDbConnection connection = new SqlConnection(connectionString))

@@ -19,7 +19,7 @@ namespace EmployeeDetailsWebApp.Controller
         public EmployeeController Controller { get; set; }
         public IEmployeeRepositoryInterface EmployeeRepository { get; set; }
         // GET api/ptemployees
-        [Route("api/getEmployees")]
+        [Route("api/employees")]
         public HttpResponseMessage Get()
         {
             HttpResponseMessage response;
@@ -32,7 +32,7 @@ namespace EmployeeDetailsWebApp.Controller
         }
 
         // GET api/ptemployees/5
-        [Route("api/getEmployee/{id?}")]
+        [Route("api/employee/{id?}")]
         public HttpResponseMessage Get(int id)
         {
             HttpResponseMessage response;
@@ -45,7 +45,7 @@ namespace EmployeeDetailsWebApp.Controller
             return response;
         }
 
-        [Route("api/createEmployee")]
+        [Route("api/employee/create")]
         public HttpResponseMessage Post(Employee employee)
         {
             HttpResponseMessage response;
@@ -57,7 +57,7 @@ namespace EmployeeDetailsWebApp.Controller
             return response;            
         }
 
-        [Route("api/updateEmployee")]
+        [Route("api/employee/update")]
         public HttpResponseMessage Put(Employee employee)
         {
             HttpResponseMessage response;
@@ -69,7 +69,7 @@ namespace EmployeeDetailsWebApp.Controller
             return response;
         }
 
-        [Route("api/deleteEmployee/{id?}")]
+        [Route("api/employee/delete/{id?}")]
         public HttpResponseMessage Delete(int id)
         {
             HttpResponseMessage response;
@@ -81,14 +81,5 @@ namespace EmployeeDetailsWebApp.Controller
                 response = Request.CreateResponse(HttpStatusCode.OK, employees);
             return response;
         }
-
-        //[Route("api/employees/{name:alpha}")]
-        //public HttpResponseMessage Get(string name)
-        //{
-        //    var employees = Controller.SearchEmployeesByName(name);
-        //    HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, employees);
-        //    return response;
-        //}
-
     }
 }
