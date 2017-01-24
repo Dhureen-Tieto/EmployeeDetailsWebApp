@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using EmployeeDetailsWebApp.Model;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using EmployeeDetailsWebApp.Model;
 
 namespace EmployeeDetailsWebApp.Controller
 {
@@ -16,6 +13,7 @@ namespace EmployeeDetailsWebApp.Controller
             EmployeeRepository = new EmployeeRepositoryAccessUsingDapper();
             Controller = new EmployeeController(EmployeeRepository);
         }
+
         public EmployeeController Controller { get; set; }
         public IEmployeeRepositoryInterface EmployeeRepository { get; set; }
         // GET api/ptemployees
@@ -25,8 +23,8 @@ namespace EmployeeDetailsWebApp.Controller
             HttpResponseMessage response;
             var employees = Controller.RetrieveEmployees();
             if (employees == null)
-                    response = Request.CreateResponse(HttpStatusCode.BadRequest, employees);
-            else 
+                response = Request.CreateResponse(HttpStatusCode.BadRequest, employees);
+            else
                 response = Request.CreateResponse(HttpStatusCode.OK, employees);
             return response;
         }
@@ -54,7 +52,7 @@ namespace EmployeeDetailsWebApp.Controller
                 response = Request.CreateResponse(HttpStatusCode.BadRequest, employees);
             else
                 response = Request.CreateResponse(HttpStatusCode.OK, employees);
-            return response;            
+            return response;
         }
 
         [Route("api/employee/update")]
