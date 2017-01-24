@@ -1,0 +1,13 @@
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeApiClient\bin\Debug\EmployeeApiClient.exe.config
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient.csproj.App.config
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient.csprojResolveAssemblyReference.cache
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\MainWindow.g.cs
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\App.g.cs
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient_MarkupCompile.cache
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient_MarkupCompile.lref
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient.csproj.App.config
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient.csprojResolveAssemblyReference.cache
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\MainWindow.g.cs
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\App.g.cs
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient_MarkupCompile.cache
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeApiClient\obj\Debug\EmployeeApiClient_MarkupCompile.lref

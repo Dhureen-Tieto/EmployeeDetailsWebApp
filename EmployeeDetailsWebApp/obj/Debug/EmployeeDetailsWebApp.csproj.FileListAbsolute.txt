@@ -1,0 +1,94 @@
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\ApplicationInsights.config
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\csc.exe
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\System.Collections.Immutable.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\vbc.exe
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\VBCSCompiler.exe
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\VBCSCompiler.exe.config
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\EmployeeDetailsWebApp.dll.config
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\EmployeeDetailsWebApp.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\EmployeeDetailsWebApp.pdb
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.Web.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.WindowsServer.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.ApplicationInsights.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.Web.xml
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.WindowsServer.xml
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.ApplicationInsights.xml
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\obj\Debug\EmployeeDetailsWebApp.csprojResolveAssemblyReference.cache
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\obj\Debug\EmployeeDetailsWebApp.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\obj\Debug\EmployeeDetailsWebApp.pdb
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\nunit.framework.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\nunit.mocks.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\pnunit.framework.dll
+c:\users\madapdhu\documents\visual studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\nunit.framework.xml
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Dapper.dll
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Newtonsoft.Json.dll
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Net.Http.Formatting.dll
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.dll
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.WebHost.dll
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Dapper.xml
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Newtonsoft.Json.xml
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Net.Http.Formatting.xml
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.xml
+C:\Users\madapdhu\Documents\Visual Studio 2015\Projects\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.WebHost.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\ApplicationInsights.config
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\csc.exe
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\vbc.exe
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\VBCSCompiler.exe
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\EmployeeDetailsWebApp.dll.config
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\EmployeeDetailsWebApp.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\EmployeeDetailsWebApp.pdb
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Dapper.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.Web.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Newtonsoft.Json.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\nunit.framework.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\nunit.mocks.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\pnunit.framework.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Net.Http.Formatting.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.WebHost.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Dapper.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.Web.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\Newtonsoft.Json.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\nunit.framework.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Net.Http.Formatting.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\bin\System.Web.Http.WebHost.xml
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\obj\Debug\EmployeeDetailsWebApp.csprojResolveAssemblyReference.cache
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\obj\Debug\EmployeeDetailsWebApp.dll
+C:\TietoGitHub\EmployeeDetailsWebApp\EmployeeDetailsWebApp\obj\Debug\EmployeeDetailsWebApp.pdb
