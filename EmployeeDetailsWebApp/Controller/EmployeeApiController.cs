@@ -1,4 +1,5 @@
 ﻿using EmployeeDetailsWebApp.Model;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -51,7 +52,12 @@ namespace EmployeeDetailsWebApp.Controller
             if (employees == 0)
                 response = Request.CreateResponse(HttpStatusCode.BadRequest, employees);
             else
+            {
+                var responseContent = Controller.RetrieveEmployees();
                 response = Request.CreateResponse(HttpStatusCode.OK, employees);
+                response.Content.ReadAsAsync<IEnumerable<Employee>>();
+            }
+                
             return response;
         }
 
@@ -63,7 +69,12 @@ namespace EmployeeDetailsWebApp.Controller
             if (employees == 0)
                 response = Request.CreateResponse(HttpStatusCode.BadRequest, employees);
             else
+            {
+                var responseContent = Controller.RetrieveEmployee(employee);
                 response = Request.CreateResponse(HttpStatusCode.OK, employees);
+                response.Content.ReadAsAsync<IEnumerable<Employee>>();
+            }
+                
             return response;
         }
 
