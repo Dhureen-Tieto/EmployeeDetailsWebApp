@@ -6,24 +6,5 @@
         xmlns:local="clr-namespace:EmployeeApiClient"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Margin="10,0,2,289">
-        <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="employeeGrid" />
-        <Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,203,0,-67"/>
-        <Label Content="FirstName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,245,0,-103"  />
-        <Label Content="LastName" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="18,276,0,-136" />
-        <Label Content="Emailid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,314,0,-176"  />
-        <Label Content="PhoneNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,314,0,-176"  />
-        <Label Content="Age" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,314,0,-176"  />
-        <Label Content="Record Status" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,314,0,-176"  />
-        <Button Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="342,203,0,-70" x:Name="btnDelete" Click="btnDelete_Click" />
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,203,0,-56" x:Name="txtId"  />
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,234,0,-92" x:Name="txtFirstName"  />
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,279,0,-136" x:Name="txtLastname"  />
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,316,0,-176" x:Name="txtEmailid"  />
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,316,0,-176" x:Name="txtPhoneNumber"  />
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,316,0,-176" x:Name="txtAge"  />
-        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,316,0,-176" x:Name="txtStatus"  />
-        <Button Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" x:Name="btnSearch" Click="btnSearch_Click" Margin="250,203,0,-59" Height="Auto"  />
-        <Button Content="Add New" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" x:Name="btnAdd" Click="btnAdd_Click" Margin="125,363,0,-219" Height="Auto"/>
-    </Grid>
+    
 </Window>
