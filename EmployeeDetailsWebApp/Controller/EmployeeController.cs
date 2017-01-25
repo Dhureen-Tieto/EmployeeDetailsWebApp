@@ -13,7 +13,7 @@ namespace EmployeeDetailsWebApp
         {
             this.employeeRepository = employeeRepository;
         }
-        private static bool CheckIfFirstNameOrLastName(Employee employee)
+        private static bool CheckIfFirstNameOrLastNameIsNullOrEmpty(Employee employee)
         {
             return string.IsNullOrEmpty(employee.FirstName) || string.IsNullOrEmpty(employee.LastName);
         }
@@ -28,7 +28,7 @@ namespace EmployeeDetailsWebApp
             RegexUtilities emailValidator = new RegexUtilities();
             try
             {
-                if (CheckIfFirstNameOrLastName(employee) || CheckIfEmailIsNullOrEmpty(employee) || !emailValidator.IsValidEmail(employee.EmailId))
+                if (CheckIfFirstNameOrLastNameIsNullOrEmpty(employee) || CheckIfEmailIsNullOrEmpty(employee) || !emailValidator.IsValidEmail(employee.EmailId))
                     status = 0;
                 else
                     status = employeeRepository.InsertEmployeeById(employee);
@@ -67,7 +67,7 @@ namespace EmployeeDetailsWebApp
             int status;
             try
             {
-                if (CheckIfFirstNameOrLastName(employee) || !CheckIfEmailIsNullOrEmpty(employee))
+                if (CheckIfFirstNameOrLastNameIsNullOrEmpty(employee) || !CheckIfEmailIsNullOrEmpty(employee))
                     status = 0;
                 else
                     status = employeeRepository.UpdateEmployeeById(employee);
@@ -98,9 +98,15 @@ namespace EmployeeDetailsWebApp
             }
             
         }
-        //public int DeleteEmployees(Employee[] employees)
-        //{
-
-        //}
+        public int DeleteEmployees(Employee[] employees)
+        {
+            int successFullDeletes = 0;
+            foreach (Employee employee in employees)
+            {
+                successFullDeletes += DeleteEmployee(employee);
+            }
+            var unSuccessFullDeletes = employees.Length - successFullDeletes;
+            return unSuccessFullDeletes;
+        }
     }
 }
